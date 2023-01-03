@@ -1,4 +1,4 @@
-# My uBo setup based on yokoffing's setup (https://bytemeta.vip/repo/yokoffing/filterlists) for use with Bromite.
+# My uBo setup based on yokoffing's recommended filters (https://github.com/yokoffing/filterlists) for use with Bromite.
 # Par this with DNS-based blocking like self-hosted Pihole/AdGuard Home or NextDNS with OISD_Full blocklist for better blockage.
 #
 # Bromite default list (redundant but uncomment if you feeling funny ig)
