@@ -1,0 +1,57 @@
+# My uBo setup based on yokoffing's setup (https://bytemeta.vip/repo/yokoffing/filterlists) for use with Bromite.
+# Par this with DNS-based blocking like self-hosted Pihole/AdGuard Home or NextDNS with OISD_Full blocklist for better blockage.
+#
+# Bromite default list (redundant but uncomment if you feeling funny ig)
+# https://github.com/bromite/filters/blob/master/lists.txt
+
+# stuffs from uBlock Origin included lists
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/badware.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/quick-fixes.txt
+https://easylist.to/easylist/easylist.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/lan-block.txt
+https://easylist.to/easylist/easyprivacy.txt
+https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-online.txt
+https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+https://secure.fanboy.co.nz/fanboy-annoyance.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/annoyances.txt
+
+# Privacy Essentials by yokoffing (may breaks third-party logins but in my case haven't noticed any)
+https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt
+
+# Actually Legitimate URL Shortener Tool by Dandelion Sprout
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+
+# ClearURLs for uBO by Dandelion Sprout (may breaks webs but again never had a problem with it)
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+
+# Block third party fonts by yokoffing (more speed *ig?* and privacy at a cost of 'look and feel' of some sites)
+https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt
+
+# Dandelion Sprout's Anti-Malware List (blocks heavily abused TLDs)
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt
+
+# Enhanced website protection by Yokoffing (blocks even more abused TLDs)
+https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt
+
+# The malicious website blocklist by iam-py-test
+https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt
+
+# yokoffing's Annoyance List
+https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
+
+# Browse websites without logging in by Dandelion Sprout
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
+
+# Anti-paywall filters by liamengland1 (complements Bypass Paywalls Clean filter)
+https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt
+
+# Bypass Paywalls Clean filter for uBo
+https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt
+
+# Windscribe clickbait list
+https://assets.windscribe.com/custom_blocklists/clickbait.txt
